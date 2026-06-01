@@ -1,0 +1,34 @@
+{
+  "name": "Sistema_Pedidos_Principal",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "712f957e-1e9d-472b-b1ba-013015e06be9",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "2c38d12d-a4ef-4138-a1d6-727bfc820a44",
+      "name": "Recibir Mensaje WA",
+      "webhookId": "712f957e-1e9d-472b-b1ba-013015e06be9"
+    }
+  ],
+  "pinData": {},
+  "connections": {},
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "94edbf82-bc92-4498-bf49-1cee57ffb5c0",
+  "meta": {
+    "instanceId": "34b5bb8aa43b04a2f7b2c2a08ee4bccaaedb04a27c66d5a324ba2a2d89e5f36d"
+  },
+  "id": "9HVv1k7A26vKUuRL",
+  "tags": []
+}
