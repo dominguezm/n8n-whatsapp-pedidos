@@ -49,6 +49,30 @@
       ],
       "id": "8a426367-fd1a-491c-aaa4-158cfae58984",
       "name": "If"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "935fb43b-9681-4dcf-9771-3724adb57c1b",
+              "name": "mensaje_respuesta",
+              "value": "¡Hola! Gracias por comunicarte con Mercado TEC. Tenemos varios modelos de smartwatches de alta calidad listos para envío a domicilio en toda la ciudad de Arequipa. ¿Te gustaría que te envíe nuestro catálogo actual?",
+              "type": "string"
+            }
+          ]
+        },
+        "includeOtherFields": true,
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        416,
+        -96
+      ],
+      "id": "4ef8a484-3192-4d7e-9ed6-37dab474fc54",
+      "name": "Edit Fields"
     }
   ],
   "pinData": {},
@@ -63,6 +87,17 @@
           }
         ]
       ]
+    },
+    "If": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
     }
   },
   "active": false,
@@ -70,7 +105,7 @@
     "executionOrder": "v1",
     "binaryMode": "separate"
   },
-  "versionId": "6d7b38db-ed4e-4fd7-8b26-d5a706cf694c",
+  "versionId": "a35dd437-ec5a-497f-8e96-e8994268e5f1",
   "meta": {
     "instanceId": "34b5bb8aa43b04a2f7b2c2a08ee4bccaaedb04a27c66d5a324ba2a2d89e5f36d"
   },
