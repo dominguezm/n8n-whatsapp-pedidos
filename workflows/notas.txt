@@ -1,1 +1,1 @@
-Aqui gardaremos los JSON de n8n
+Aqui cargaremos los JSON de n8n
